@@ -1,7 +1,7 @@
-# This is the default format. 
+# This is the default format.
 # For more see: http://jekyllrb.com/docs/permalinks/
-# permalink: /:categories/:year/:month/:day/:title 
-permalink: /:categories/:title 
+# permalink: /:categories/:year/:month/:day/:title
+permalink: /:categories/:title
 
 exclude: ["Gemfile", "*.rb", "README.md", "Rakefile", "vendor/bundle"]
 
@@ -11,36 +11,36 @@ highlighter: rouge
 
 markdown: kramdown
 
-repository: hallettmiket/hallettmiket.github.io
+repository: western-med-bioinfo/western-med-bioinfo.github.io
 
-# Themes are encouraged to use these universal variables 
+# Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
-title: "Hallett Lab"
-tagline: Experimental and analytic approaches to perturbing biological systems.
+title: "Medical Bioinformatics @Western"
+tagline: Medical Bioinformatics at Western University, Canada
 institution:
   url: https://www.schulich.uwo.ca/
   name: Western University
   logo: /assets/images/western_longWhite.png
-department:
-  url: https://www.schulich.uwo.ca/biochem/
-  name: Department of Biochemistry
-  logo: /assets/images/logo_shulichmed.png
-author :
-  name : Michael Hallett
-  email : hallett.mike.t@gmail.com
-  github : hallettmiket
-  twitter : hallettmichael
-  logo: /assets/images/logo.png
+# department:
+#   url: https://www.schulich.uwo.ca/biochem/
+#   name: Department of Biochemistry
+#   logo: /assets/images/logo_shulichmed.png
+# author :
+#   name : Michael Hallett
+#   email : hallett.mike.t@gmail.com
+#   github : hallettmiket
+#   twitter : hallettmichael
+#   logo: /assets/images/logo.png
 #  feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
-# such as sitemap.txt 
+# such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
 #
 # If you have set a CNAME (pages.github.com) set your custom domain here.
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
-production_url : https://mikehallett.science
+production_url : western-med-bioinfo
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 JB :
@@ -51,11 +51,11 @@ JB :
   # however this value will be dynamically changed depending on your deployment situation.
   #
   # CNAME (http://yourcustomdomain.com)
-  #   DO NOT SET BASE_PATH 
+  #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
   # GitHub Pages (http://username.github.io)
-  #   DO NOT SET BASE_PATH 
+  #   DO NOT SET BASE_PATH
   #   (urls will be prefixed with "/" and work relatively)
   #
   # GitHub Project Pages (http://username.github.io/project-name)
@@ -74,7 +74,7 @@ JB :
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
   #
   # Override this by defining an absolute path to assets here.
-  # ex: 
+  # ex:
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
@@ -106,24 +106,24 @@ JB :
       num_posts: 5
       width: 580
       colorscheme: light
-   
+
   # Settings for analytics helper
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #
   analytics :
     provider : google
-    google : 
+    google :
       tracking_id : 'UA-56756908-2'
     #getclicky :
-      #site_id : 
+      #site_id :
     #mixpanel :
       #token : '_MIXPANEL_TOKEN_'
     #piwik :
       #baseURL : 'myserver.tld/piwik' # Piwik installation address (without protocol)
       #idsite : '1'                   # the id of the site on Piwik
 
-  # Settings for sharing 
+  # Settings for sharing
   # Sharing is for things like tweet, plusone, hn upvotes, like, linkedin
   # Add a tweet button    => provider : tweet
   # Add a like button     => provider : like (you also need a facebook appid)
@@ -139,19 +139,19 @@ JB :
      via :
      count :
    linkedin :
-     counter : right      
-    
-  # Settings for all other include helpers can be defined by creating 
+     counter : right
+
+  # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
   #
   #   pages_list :
-  #     provider : "custom"   
+  #     provider : "custom"
   #
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
-  
+
 # allow page redirection
 plugins:
   - jekyll-redirect-from
