@@ -7,6 +7,8 @@ projects/
 !projects/index.html
 # Jekyll metadata
 .jekyll-metadata
+# Ruby packages
+vendor/
 # Other files
 .DS_Store
 .Rproj.user
