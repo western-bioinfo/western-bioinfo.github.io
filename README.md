@@ -1,12 +1,11 @@
-# Hallett Lab research website
-
+# Medical Bioinformatics @ Western research website
 
 ## Build site
 
 To build the website locally, clone the repo with:
 
 ```
-git clone --recurse-submodules https://github.com/vdumeaux/researchweb.git
+git clone --recurse-submodules https://github.com/nav-mohan/western-bioinfo.github.io
 ```
 
 Then install necessary Ruby dependencies by running:
