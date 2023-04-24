@@ -19,6 +19,8 @@ GEM
     concurrent-ruby (1.1.9)
     dnsruby (1.61.7)
       simpleidn (~> 0.1)
+    domain_name (0.5.20190701)
+      unf (>= 0.0.5, < 1.0.0)
     em-websocket (0.5.3)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
@@ -102,6 +104,9 @@ GEM
     html-pipeline (2.14.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
+    http-accept (1.7.0)
+    http-cookie (1.0.5)
+      domain_name (~> 0.5)
     http_parser.rb (0.8.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -222,6 +227,9 @@ GEM
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
+    mime-types (3.4.1)
+      mime-types-data (~> 3.2015)
+    mime-types-data (3.2023.0218.1)
     minima (2.5.1)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
@@ -229,8 +237,6 @@ GEM
     minitest (5.15.0)
     multipart-post (2.1.1)
     netrc (0.11.0)
-    nokogiri (1.12.5-arm64-darwin)
-      racc (~> 1.4)
     nokogiri (1.12.5-x86_64-darwin)
       racc (~> 1.4)
     octokit (4.21.0)
@@ -244,6 +250,11 @@ GEM
     rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+    rest-client (2.1.0)
+      http-accept (>= 1.7.0, < 2.0)
+      http-cookie (>= 1.0.2, < 2.0)
+      mime-types (>= 1.16, < 4.0)
+      netrc (~> 0.8)
     rexml (3.2.5)
     rouge (3.26.0)
     ruby-enum (0.9.0)
@@ -284,6 +295,7 @@ DEPENDENCIES
   netrc
   nokogiri
   rake
+  rest-client
   webrick
 
 BUNDLED WITH

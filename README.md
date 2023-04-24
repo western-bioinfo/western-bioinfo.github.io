@@ -64,21 +64,16 @@ The `layout`, `title` and `author_handle` tags are required, while `link` and `i
 
 ## Adding a new publication
 
-Specific to the Shah Lab, for each new paper added
+Specific to the Poon Lab, for updating the posts of PubMed papers
 
-1) Find the relevant entry on Pubmed, note the numerical pubmed ID
-    e.g.: https://www.ncbi.nlm.nih.gov/pubmed/29449679
-2) Obtain the metadata XML from Pubmed:
-    - From the link found in 1) click the Send to in the top right
-    - Select File radio button, Format XML drop down, then Create File
-    - Insert the PubmedArticle entry into ./assets/pubmed_results.xml
+1) Execute the ruby script `_scripts/fetch-pubmed-xml.rb`. This will update the `xml` file at `assets/pubmed_result.xml`.
+2) Execute the ruby script `_scripts/add-papers.rb`. This will add new Markdown documents at `papers/_posts` for example `2019-7-18-31312429.md`.
 3) Download the PDF, rename and place into the assets directory:
-    e.g.: ./assets/pdfs/papers/29449679.pdf
+    e.g.: ./assets/pdfs/papers/31312429.pdf
 4) Create a image for the paper, preferably a square .png file, name and place:
-    e.g.: ./assets/images/papers/29449679.png
-5) Run the following command `bundle exec ruby _scripts/add-papers.rb` to generate a page for your paper, and then make sure it appears on the website when the site is hosted locally (use `bundle exec jekyll build && bundle exec jekyll serve` to host a local server)
+    e.g.: ./assets/images/papers/31312429.png
+5) Finally, make sure it appears on the website when the site is hosted locally (use `bundle exec jekyll build && bundle exec jekyll serve` to host a local server).
 6) If the local server's website looks okay, commit your changes and push to production
-
 
 ## For more information
 
