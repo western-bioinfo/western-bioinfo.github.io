@@ -3,19 +3,17 @@
 ## Build site
 
 To build the website locally, clone the repo with:
-
 ```
 git clone --recurse-submodules https://github.com/nav-mohan/western-bioinfo.github.io
 ```
 
 Then install necessary Ruby dependencies by running:
-
 ```
 bundle install
 ```
+from within the `western-bioinfo.github.io` directory.
 
-from within the `shahwebsite` directory. If you do not have root permissions you may need to run:
-
+If you do not have root permissions you may need to run:
 ```
 bundle install --path vendor/bundle
 ```
