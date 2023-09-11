@@ -125,6 +125,8 @@ title: Home
 		</div>
 		<div class="bigspacer"></div>		
 	</div>
+
+
 	<div class="col-md-4">
 		<div class="head">
 			<a class="off" href="/papers/">Papers
@@ -154,21 +156,32 @@ title: Home
 		</div>
 		<div class="bigspacer"></div>		
 	</div>
+
+
 	<div class="col-md-4">
-		<div class="feedbox pad-left">		
-            <div class="head">
-                <a class="off" href="https://twitter.com/hallettmichael">
-                    Tweets 
-                    <a class="twitter-follow-button"
-                      href="https://twitter.com/hallettmichael">
-                      Follow @hallettmichael</a>
-                </a>
-            </div>
-            <div class="bigspacer"></div>
-            <a class="twitter-timeline" data-theme="light" 
-                  data-chrome="noheader nofooter transparent noborders" 
-                  data-tweet-limit="2" href="https://twitter.com/hallettmichael">Tweets by mike</a> 
-            <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<div class="head">
+			<a class="off" href="/faculty/">Faculty
+			</a>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="feedbox pad-left">
+			{% for member in site.categories.faculty %}
+				
+				<div class="col-md-4 memberbox">
+					<div class="media">
+						<a class="pull-left" href="{{ member.url }}">
+						<img width="150" class="media-object" src="{{ member.image }}">
+						</a>
+							<div class="media-body">
+						<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+						<p class="note">{{ member.position }}</p>
+						</div>
+					</div>
+					<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
+				</div>	  
+				
+			{% endfor %}
 		</div>
 		<div class="bigspacer"></div>		
 	</div>
