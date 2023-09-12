@@ -19,17 +19,14 @@ bundle install --path vendor/bundle
 ```
 
 After this, the site can be be built with:
-
 ```
 bundle exec jekyll build
 ```
 
 (If you are getting errors at this stage, it may be due to your version of `bundle`. Try `gem uninstall bundler` + `gem install bundler -v 1.13.1`.)
-
 To view the site, run `bundle exec jekyll serve` and point a browser to `http://localhost:4000/`. More information on Jekyll can be found [here](http://jekyllrb.com/).
 
 To include projects, preprocessing scripts are necessary to clone project repos and update Jekyll metadata. This can be accomplished with:
-
 ```
 bundle exec ruby _scripts/update-and-preprocess.rb
 ```
@@ -47,7 +44,6 @@ The website is built using Travis, with builds triggered for each commit. If you
 ## Contribute
 
 Blog posts just require YAML top matter that looks something like:
-
 ```
 ---
 layout: post
@@ -60,9 +56,11 @@ image: /images/blog/transmission.png
 
 The `layout`, `title` and `author_handle` tags are required, while `link` and `image` tags are optional. Just save a Markdown file with this top matter as something like `blog/_posts/2013-08-27-newton-institute.md`, where `2013-08-27` is the date of the post and `newton-institute` is the short title. The `author_handle` tag on the blog post must match the `handle` tag in the `.md` file of the team member authoring the post (team member `.md` files can be found in `team/_posts`). This short title is used in the URL of the post, so this becomes `blog/newton-institute/`, so the short title should be long enough and unique enough not to cause conflicts with other posts.
 
+If you are making your faculty profile for the first time, the easiest approach is to copy one of the existing Markdown files in `faculty/_posts` and modifying the YAML header with your personal information, *e.g.*, name, GitHub username.  You can add any Markdown or HTML below the YAML, which will be rendered on your profile page.
+
 ## Adding a new publication
 
-Specific to the Poon Lab, for updating the posts of PubMed papers
+@nav-mohan contributed some Ruby scripts for retrieving papers from PubMed and using this information to automatically generate Markdown posts:
 
 1) Execute the ruby script `_scripts/fetch-pubmed-xml.rb`. This will update the `xml` file at `assets/pubmed_result.xml`.
 2) Execute the ruby script `_scripts/add-papers.rb`. This will add new Markdown documents at `papers/_posts` for example `2019-7-18-31312429.md`.
