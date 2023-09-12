@@ -1,11 +1,32 @@
 # Medical Bioinformatics @ Western research website
 
-## Build site
+Clone the repo with:
+```
+git clone --recurse-submodules https://github.com/western-bioinfo/western-bioinfo.github.io.git
+```
 
-To build the website locally, clone the repo with:
+# Build site using Docker
+
+Highly recommended esp for Apple M1/M2 users
+
 ```
-git clone --recurse-submodules https://github.com/nav-mohan/western-bioinfo.github.io
+docker build -t medbioinfo-uwo-website .
+docker run -p 4000:4000 medbioinfo-uwo-website
+
 ```
+When you are finished and no longer need the container, you can stop it by pressing Ctrl+C in the terminal where it is running.
+
+Then, remove the stopped container using `docker rm <container_id_or_name>`. You can find the container's ID or name by running `docker ps -a`, which lists all containers, including stopped ones.
+
+By removing the container when you're done, you free up system resources and keep your Docker environment clean. If you need to run the container again later, you can simply use the docker run command again.
+
+Remember that the Docker image you built (my-jekyll-website) will still exist on your system even after removing the container. You can list all Docker images with `docker images` and remove them using `docker rmi <image_id_or_name>` if you no longer need them.
+
+To run old image, simply run 
+`docker run -p 4000:4000 medbioinfo-uwo-website`
+To build new image run `docker build` first.
+
+## Build site locally
 
 Then install necessary Ruby dependencies by running:
 ```
