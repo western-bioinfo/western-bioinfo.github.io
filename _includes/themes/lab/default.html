@@ -114,34 +114,6 @@
       {{ content }}
    </div>
 
-
-  <!-- Static bottom navbar -->
-  <nav class="navbar navbar-default navbar-fixed-bottom">
-    <div class="container">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-bottom-collapse"> <!-- NOTE! data-target was changed to jb-bottom-collapse -->
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="jb-bottom-collapse">
-        <a href={{ site.department.url }}>
-          <img class="logo" alt="{{ site.department.name }}" src={{ site.department.logo }}>
-        </a>
-        <a href={{ site.institution.url }}>
-          <img class="logo" alt="{{ site.institution.name }}" src={{ site.institution.logo }}>
-        </a>
-        <ul class="nav navbar-nav navbar-right navbar-small">
-          <li><a href='/about.html'>About</a></li>
-          <li><a href='/join.html'>Join</a></li>
-          <li><a href='/contact.html'>Contact</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
-
     {% include JB/analytics %}
 
     <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->

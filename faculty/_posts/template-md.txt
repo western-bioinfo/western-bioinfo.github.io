@@ -1,0 +1,19 @@
+---
+layout: member
+title: name
+position: professor
+handle: 
+email: something@uwo.ca
+twitter: 
+github: 
+bitbucket: 
+scholar: 
+linkedin: 
+image: /assets/images/faculty/
+www: 
+cv: 
+alumni: false
+interests: 
+---
+
+<!-- You can put any HTML you want here -->

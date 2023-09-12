@@ -1,7 +1,7 @@
 ---
 layout: member
 title: Mike Hallett
-position: Principal investigator
+position: Professor
 handle: mhallett
 email: hallett.mike.t@gmail.com
 twitter: hallettmichael
@@ -9,10 +9,11 @@ github: hallettmiket
 bitbucket: hallettmichael
 scholar: aSl0gXwAAAAJ
 linkedin: https://www.linkedin.com/in/michael-hallett-27411991/
-image: /assets/images/team/mike-hallett.jpg
+image: /assets/images/faculty/mike-hallett.jpg
 www: https://mikehallett.science
 cv: /assets/pdfs/team/mike-hallett-cv.pdf
 alumni: false
+interests: Computational biology and bioinformatic approaches to biomarkers based on multi-variate, multi-modal gene signatures, especially in the context of cancer.
 ---
 
 

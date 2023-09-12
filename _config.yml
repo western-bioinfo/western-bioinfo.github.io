@@ -155,3 +155,6 @@ JB :
 # allow page redirection
 plugins:
   - jekyll-redirect-from
+
+
+future: true
