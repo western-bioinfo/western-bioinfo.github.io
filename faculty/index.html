@@ -23,22 +23,17 @@ description: "People in the lab"
 <div class="bigspacer"></div>
 
 <div class="bigspacer"></div>
-{% for member in site.categories.faculty %}
-	{% cycle 'add rows': '<div class="row">', '', '' %}
-		<div class="col-md-4 memberbox">
-			<div class="media">
-			<a class="pull-left" href="{{ member.url }}">
-				<img width="150" class="media-object" src="{{ member.image }}">
-			</a>
-				<div class="media-body">
-				<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-				<p class="note">{{ member.position }}</p>
-			</div>
-			</div>
-			<div class="bigspacer"></div>
-			<div class="bigspacer"></div>
-	</div>	  
-	{% cycle 'close rows': '', '', '</div>' %}
+{% for member in site.categories.faculty %}	
+	<div class="media">
+	<a class="pull-left" href="{{ member.url }}">
+		<img width="150" class="media-object" src="{{ member.image }}">
+	</a>
+		<div class="media-body">
+		<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
+		<p class="note">{{ member.position }}</p>
+	</div>
+	</div>
+	<div class="bigspacer"></div>
 {% endfor %}
 
 <br>

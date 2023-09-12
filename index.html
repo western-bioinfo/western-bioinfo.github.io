@@ -63,7 +63,9 @@ title: Home
 		</div>
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
-			{% for post in site.categories.seminars limit:5 %}
+			<!-- TODO: filter past seminars to within last few months... -->
+			{% assign sorted = site.categories.seminars | reverse %}
+			{% for post in sorted limit:5 %}
 				
 				<div class="note-title">
 					<i class="fa fa-comment-o fa-fw"></i>
