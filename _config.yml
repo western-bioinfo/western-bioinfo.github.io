@@ -156,5 +156,5 @@ JB :
 plugins:
   - jekyll-redirect-from
 
-
+# display posts with dates in the future
 future: true

@@ -107,20 +107,22 @@
 			<div class="bigspacer"></div>
 			<div class="head">Papers</div>
 			<div class="spacer"></div>
+			<ul>
 			{% for paper in site.categories.papers %}
 				{% assign authors = paper.authors | split: ',' %}
 				{% for author in authors %}	
 					{% if author contains firstname %}
 						{% if author contains lastname %}
 							{% if paper.embargo %}
-							<p>{{ paper.title }}
+							<li><b>{{ paper.title }}</b> {{ paper.journal }}.</li>
 							{% else %}
-							<p><a href="{{ paper.url }}" class="off">{{ paper.title }}</a>
+							<li><a href="{{ paper.url }}" class="off"><b>{{ paper.title }}</b></a> {{ paper.journal }}.</li>
 							{% endif %}
 						{% endif %}
 					{% endif %}
 				{% endfor %}
 			{% endfor %}
+			</ul>
 		{% endif %}		
 		
 		{% if postsq == true %}
