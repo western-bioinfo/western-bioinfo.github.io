@@ -8,6 +8,7 @@ scholar: https://scholar.google.com/citations?user=bUlQRqMAAAAJ&hl=en
 github: https://github.com/vdumeaux
 twitter: https://twitter.com/VDumeaux
 alum: false
+interests: Genomics and computational approaches to understand the molecular aspects of human physiology and disease incidence/prognosis in the context of the individual (e.g. immune response, microbiome).
 ---
 
 Dr. Dumeaux received her doctorate in Pharmacy in 2002 in France. She then obtained her Ph.D. in molecular epidemiology, a joint degree from the University of Tromso (Norway) and the University of Paris-South XI (France). During her PhD, she developed expertise in genomics in the group of Professeur Borresen-Dale at the Norwegian Radium Hospital which was among the pioneers in expression profiling of breast carcinomas in collaboration with groups at Stanford University. Dr Dumeaux co-initiated the post-genomic wing of the Norwegian Women and Cancer cohort to study the systems biology of breast cancer in a population-based context. She has had a long-standing interest in the development of RNA-based biomarker signatures in blood, which can be used to inform on exposure (exposome; eg. organic pollutants) and health status (eg. diagnostics of breast cancer, side-effects of radiotherapy).
