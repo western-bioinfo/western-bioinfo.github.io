@@ -11,60 +11,16 @@ alum: false
 interests: Genomics and computational approaches to understand the molecular aspects of human physiology and disease incidence/prognosis in the context of the individual (e.g. immune response, microbiome).
 ---
 
-Dr. Dumeaux received her doctorate in Pharmacy in 2002 in France. She then obtained her Ph.D. in molecular epidemiology, a joint degree from the University of Tromso (Norway) and the University of Paris-South XI (France). During her PhD, she developed expertise in genomics in the group of Professeur Borresen-Dale at the Norwegian Radium Hospital which was among the pioneers in expression profiling of breast carcinomas in collaboration with groups at Stanford University. Dr Dumeaux co-initiated the post-genomic wing of the Norwegian Women and Cancer cohort to study the systems biology of breast cancer in a population-based context. She has had a long-standing interest in the development of RNA-based biomarker signatures in blood, which can be used to inform on exposure (exposome; eg. organic pollutants) and health status (eg. diagnostics of breast cancer, side-effects of radiotherapy).
-
-During her post-doc, she visited the Department of Applied Mathematics (University of Paris Descartes) and the Laboratory of Bioinformatics and Functional Genomics (Princeton University), and finally moved to Canada in 2009 to continue her research in bioinformatics and genomics at McGill and Concordia University.
-
-In recent years, Dr Dumeaux also created a freelance consultancy as well as a cooperative to fill today’s great demand for data science experts in both academic and private sectors.
-
-She joined Western University as an Assistant Professor in the Department of Anatomy and Cell Biology in April 2022.
-
-		  
-<p style="text-align: justify;"><strong>Employment, Position:</strong></p>
-• April 2022- Assistant Professor, Department of Anatomy & Cell Biology, Schulich School of Medicine and Dentistry, Western University
-
-• April 2022- Member, Center for Translational Cancer Research, Schulich School of Medicine and Dentistry, Western University
-
-• July 2022- Affiliate Assistant Professor, Department of Oncology, Schulich School of Medicine and Dentistry, Western University
-
-• 2017- 2022 Freelance Consultant, Dumeaux Data Science
-
-• 2020-2022 Founder & President, SCIEL (Single-Cell, Informatics, Experiment, Learning) coopérative
-
-• 2019-Nov2021 Affiliate Assistant Professor, Department of Biology, Concordia University
-
-• 2017-Nov2021 Senior Scientist, PERFORM Centre, Concordia University
+The [Dumeaux lab](https://lab-dumeaux.science/) is capable of executing projects from the statistical design phase, through high-throughput profiling, to downstream analysis that transforms data into knowledge and translationnal applications. Our research program addresses health relevant questions primarily related to disease prevention and treatment using host-derived markers such as immune response and more recently the gut microbiome. By leveraging the remarkable progress being made in genomics, we would like to contribute in translational research aiming to present the most complete practical picture of an individual's health and to empower individuals, researchers, and providers to work together towards the development and implementation of comprehensive and personalized prevention and care strategies.
 
 
-• 2014-17 Research Scientist, Breast Cancer Informatics laboratory, McGill University
-
-• 2011-14 Research Scientist, UiT The Arctic University of Norway, visiting McGill University
-  - 2013-14 Associate Member,Department of Epidemiology, Biostatistics &amp; Occupational Health
-  - 2011-14 Affiliate Assistant Professor, Department of Oncology
-
-• 2006-11 Post-Doctoral &amp; Research Fellow, UiT The Arctic University of Norway, visiting:
-  - 2009-11 Goodman Cancer Centre, McGill University
-  - 2008-09 Department of Applied Mathematics, University of Paris Descartes
-  - 2008 Laboratory of Bioinformatics and Functional Genomics, Princeton University
-  - 2006-08 Department of Genetics, The Norwegian Radium Hospital
-
-<p><strong>Education:</strong></p>
-
-<p style="text-align: justify;">2005 PhD Molecular Epidemiology, University of Paris XI and The Arctic University of Norway</p>
-<p style="text-align: justify;">2002 MSc Epidemiology and Public Health, University of Bordeaux II, France</p>
-<p style="text-align: justify;">2002 Doctor in Pharmacy, University of Poitiers, France</p>
-
-<p><strong>Patents and intellectual property rights:</strong></p>
-
-<p>08/2020 Patent submitted to Patent Cooperation Treaty (PCT US 63/091,084)
-<em><span style="text-decoration: underline;"><span style="color: #333399; text-decoration: underline;"><a href="https://mcgill.flintbox.com/technologies/7819916d-b28c-41a2-addd-5c7f972b77ff"><span style="color: #333399; text-decoration: underline;">Methods for identifying epigenetic modifications in sperm, diagnosing infertility, and identifying treatment strategies</span></a></span></span></em></p>
-
-<p>11/2013 Patent submitted to Patent Cooperation Treaty (PCT/NO2013/050203)
-<em><span style="text-decoration: underline;"><span style="color: #333399; text-decoration: underline;"><a href="https://www.google.com/patents/WO2014081313A1?cl=en"><span style="color: #333399; text-decoration: underline;">Gene expression profile in diagnostics</span></a></span></span></em></p>
+<p style="text-align: justify;"><strong>Affiliations:</strong></p>
+- Departments of Anatomy & Cell Biology, Biochemistry and Oncology, Schulich School of Medicine & Dentistry, Western University
+- Lawson Health Research Institute & Children’s Health Research Institute
 
 
 <p style="text-align: justify;"><strong>Funding (past 5 years):</strong></p>
-<p>2023-2025 Cancer Research Society (Principal Applicant): <em>High-resolution mapping of cancer immunity to predict response to therapy in HER2-positive breast cancer patients</em></p>
+<p>2023-2025 Cancer Research Society & CIHR-Institute of Cancer Research (Principal Applicant): <em>High-resolution mapping of cancer immunity to predict response to therapy in HER2-positive breast cancer patients</em></p>
 <p>2023-2025 The Schulich Collaborative Research Seed Grant (Principal Applicant): <em>Tumor and systemic immune markers for measuring breast cancer response to therapy</em></p>
 <p>2023-2027 Canadian Institutes of Health Research, Project grant (Co-applicant): <em>Predicting Radiation Response Following Breast-Conserving Therapy for DCIS: Translation and Validation of a Novel Predictive Biomarker Classifier blood flow in healthy and complicated pregnancies. (Principal Applicants: Eileen Rakovitch, Michael Hallett)</em></p>
 <p>2023-2028 Canada Foundation JELF (Co-applicant): <em>Computational infrastructure for data science in human health (Principal Applicants: Michael Hallett, Jennifer Guthrie, Pingzhao Hu)</em></p>
