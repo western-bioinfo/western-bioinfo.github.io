@@ -122,10 +122,10 @@ title: Home
 			</a>
 		</div>
 		<div class="bigspacer"></div>
-		<div class="feedbox pad-left">
-			{% assign nfac = site.categories.faculty | size %}
-			{% assign members = site.categories.faculty | sample: nfac %}
-			{% for member in members %}
+		<div class="feedbox pad-left" id="fac-list">
+			<!-- {% assign nfac = site.categories.faculty | size %} -->
+			<!-- {% assign members = site.categories.faculty | sample: nfac %} -->
+			{% for member in site.categories.faculty %}
 				<div class="media">
 					<a class="pull-left" href="{{ member.url }}">
 					<img width="120" class="media-object" src="{{ member.image }}">
@@ -143,7 +143,8 @@ title: Home
 						{{ member.interests }}
 						</div>
 					</div>
-				<div class="bigspacer"></div>
+					<div class="bigspacer"></div>
+				</div>
 			{% endfor %}
 		</div>
 		<div class="bigspacer"></div>		
@@ -151,3 +152,10 @@ title: Home
 </div>
 
 <div class="bigspacer"></div>
+
+<script>
+	var facList = document.querySelector("#fac-list");
+	for (var i = facList.children.length; i >= 0; i--) {
+		facList.appendChild(facList.children[Math.random() * i | 0]);
+	}
+</script>
