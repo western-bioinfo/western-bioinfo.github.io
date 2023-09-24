@@ -158,3 +158,10 @@ plugins:
 
 # display posts with dates in the future
 future: true
+
+defaults:
+  - scope:
+      path: ""
+      type: papers
+    values:
+      image: /assets/images/Default_paper.png
