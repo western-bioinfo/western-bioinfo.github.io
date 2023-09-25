@@ -83,14 +83,15 @@ If you are making your faculty profile for the first time, the easiest approach 
 
 @nav-mohan contributed some Ruby scripts for retrieving papers from PubMed and using this information to automatically generate Markdown posts:
 
-1) Execute the ruby script `_scripts/fetch-pubmed-xml.rb`. This will update the `xml` file at `assets/pubmed_result.xml`.
-2) Execute the ruby script `_scripts/add-papers.rb`. This will add new Markdown documents at `papers/_posts` for example `2019-7-18-31312429.md`.
-3) Download the PDF, rename and place into the assets directory:
+1. Open `_scripts/fetch_pubmed-xml.rb` in a text editor and modify the line `AUTHOR_NAME` with a PubMed author query, *e.g.*, `Poon AFY[Author]`.  (It is probably a good idea to run this query with the PubMed web interface first, to make sure that you are retrieving the right papers.)
+2. Execute the ruby script `_scripts/fetch-pubmed-xml.rb`.  This will update the `xml` file at `assets/pubmed_result.xml`.
+3. Execute the ruby script `_scripts/add-papers.rb`.  This will add new Markdown documents at `papers/_posts` for example `2019-7-18-31312429.md`.
+4. Download the PDF, rename and place into the assets directory:
     e.g.: ./assets/pdfs/papers/31312429.pdf
-4) Create a image for the paper, preferably a square .png file, name and place:
+5. Create a image for the paper, preferably a square .png file, name and place:
     e.g.: ./assets/images/papers/31312429.png
-5) Finally, make sure it appears on the website when the site is hosted locally (use `bundle exec jekyll build && bundle exec jekyll serve` to host a local server).
-6) If the local server's website looks okay, commit your changes and push to production
+6. Finally, make sure it appears on the website when the site is hosted locally (use `bundle exec jekyll build && bundle exec jekyll serve` to host a local server).
+7. If the local server's website looks okay, commit your changes and push to production
 
 ## For more information
 
