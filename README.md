@@ -81,9 +81,9 @@ If you are making your faculty profile for the first time, the easiest approach 
 
 ## Adding a new publication
 
-@nav-mohan contributed some Ruby scripts for retrieving papers from PubMed and using this information to automatically generate Markdown posts:
+There are some Ruby scripts for retrieving papers from PubMed and using this information to automatically generate Markdown posts:
 
-1. Open `_scripts/fetch_pubmed-xml.rb` in a text editor and modify the line `AUTHOR_NAME` with a PubMed author query, *e.g.*, `Poon AFY[Author]`.  (It is probably a good idea to run this query with the PubMed web interface first, to make sure that you are retrieving the right papers.)
+1. Open `_scripts/fetch_pubmed-xml.rb` in a text editor and modify the line `AUTHOR_NAME` with a PubMed author query, *e.g.*, `Surname I[Author]`.  (It is probably a good idea to run this query with the PubMed web interface first, to make sure that you are retrieving the right papers.)
 2. Execute the ruby script `_scripts/fetch-pubmed-xml.rb`.  This will update the `xml` file at `assets/pubmed_result.xml`.
 3. Execute the ruby script `_scripts/add-papers.rb`.  This will add new Markdown documents at `papers/_posts` for example `2019-7-18-31312429.md`.
 4. Download the PDF, rename and place into the assets directory:
