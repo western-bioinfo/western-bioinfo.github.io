@@ -5,7 +5,7 @@ Clone the repo with:
 git clone --recurse-submodules https://github.com/western-bioinfo/western-bioinfo.github.io.git
 ```
 
-# Build site using Docker
+## Build site using Docker
 
 Highly recommended esp for Apple M1/M2 users
 
@@ -93,7 +93,7 @@ There are some Ruby scripts for retrieving papers from PubMed and using this inf
 6. Finally, make sure it appears on the website when the site is hosted locally (use `bundle exec jekyll build && bundle exec jekyll serve` to host a local server).
 7. If the local server's website looks okay, commit your changes and push to production
 
-## For more information
+### For more information
 
 * How to add [papers](https://github.com/shahcompbio/shahwebsite)
 * Look over the [metadata format guide](http://bedford.io/guide/format/)
