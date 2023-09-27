@@ -6,13 +6,14 @@ author: "Dr. Idowu Olawoye"
 affil: "Western University"
 date: 2023-09-08
 draft: false
-images: 
+image: https://avatars.githubusercontent.com/u/39491421?v=4
 series:
 tags:
 categories:
-layout: post
+layout: seminar
 ---
  
+# Learning objectives
 - Demonstrate the importance of bioinformatics in accurate detection of drug resistance in 
 tuberculosis infections
 - Appreciate the local burgeoning bioinformatics capacity building initiatives in Nigeria

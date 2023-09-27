@@ -6,9 +6,9 @@ author: "Dr. Hamed Najafabadi"
 affil: "McGill University"
 date: 2023-10-20
 draft: false
-images: 
+image: "/assets/images/Unknown_person.jpeg"
 series:
 tags:
 categories:
-layout: post
+layout: seminar
 ---

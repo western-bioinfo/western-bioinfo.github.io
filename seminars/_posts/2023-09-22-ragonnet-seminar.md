@@ -6,11 +6,11 @@ author: "Dr. Manon Ragonnet-Cronin"
 affil: "University of Chicago"
 date: 2023-09-22
 draft: false
-images: 
+image: https://cobeylab.uchicago.edu/media/profile_pictures/IMG_3494.JPG
 series:
 tags:
 categories:
-layout: post
+layout: seminar
 ---
 
 ### Learning objectives

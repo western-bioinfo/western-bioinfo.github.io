@@ -7,67 +7,37 @@ navorder: 1
 ---
 {% include JB/setup %}
 
-
-<div class="pager">
-
-    {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <a class="prev" href="/{{ page.category }}/">
-            <i class="fa fa-chevron-left fa-lg"></i>
-        </a>
-        {% else %}
-        <a class="prev" href="/{{ page.category }}/page{{ paginator.previous_page }}">
-            <i class="fa fa-chevron-left fa-lg"></i>
-        </a>
-        {% endif %}
-    {% endif %}
-
-    {% if paginator.next_page %}
-    <a class="next" href="/{{ page.category }}/page{{ paginator.next_page }}">
-        <i class="fa fa-chevron-right fa-lg"></i>
-    </a>
-    {% endif %}
-
-</div>
-
 {% for post in site.categories.seminars reversed %}
-
     <div class="bigspacer"></div>
     <div class="row">
         <!-- left margin -->
-        <div class="col-md-3">
-            <div class="head">
-                <!-- seminar speaker -->
-                {{ post.author }}
-            </div>
-
-            <div class="spacer"></div>
-
-            <div class="smallhead">
-                {{ post.affil }}
-            </div>
-
-            <div class="bigspacer"></div>
-
+        <div class="col-md-2">
             <div class="smallhead">
                 {{ post.date | date_to_string }}
                 {% if author %}
                 by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
                 {% endif %}
             </div>
+
+            {% if post.image %}
+            <a href="{{ post.url }}"><img class="offset" width=125 src="{{ post.image }}"></a>
+            {% endif %}
         </div>
         <!-- body -->
         <div class="col-md-8">
             <!-- <div style="height:5px;"></div> -->
-            {% if post.image %}
-            <a href="{{ post.url }}"><img class="offset" src="{{ post.image }}"></a>
-            {% endif %}
-            <div class="smalltitle">
+            <div class="smallhead">
                 <!-- seminar title -->
                 <a href="{{ post.url }}" class="off">{{ post.title }}</a>
             </div>
-            <div class="post">
-                {{ post.content }}
+
+            <div class="smalltitle">
+                <!-- seminar speaker -->
+                <a href="{{ post.url }}">{{ post.author }}</a>
+            </div>
+
+            <div class="smallhead">
+                {{ post.affil }}
             </div>
         </div>
         <!-- right margin (spacer) -->
