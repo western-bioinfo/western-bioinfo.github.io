@@ -3,9 +3,9 @@ layout: member
 title: Pingzhao Hu
 position: Associate Professor
 email: phu49@uwo.ca
-twitter: 
-github: 
-scholar: ejiSuoYAAAAJ
+twitter: https://twitter.com/PingzhaoH
+github: https://github.com/TheHuLab
+scholar: https://scholar.google.com/citations?user=ejiSuoYAAAAJ&hl=en
 image: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ejiSuoYAAAAJ&citpid=1
 www: https://phulab.org/
 cv: 
