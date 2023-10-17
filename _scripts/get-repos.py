@@ -4,12 +4,14 @@ pip install PyGithub
 """
 import argparse
 import sys
-from github import Github
+from github import Github, Auth
 import os
 import time
 
 parser = argparse.ArgumentParser(description="Retrieve public repos given GH username")
 parser.add_argument("user", type=str, help="GitHub username")
+parser.add_argument("--token", type=str, default=None, 
+                    help="GitHub access token. Optional but strongly recommended!")
 parser.add_argument("--repo", type=str, default=None, help="optional, retrieve specific repo")
 parser.add_argument("-o", "--outdir", type=str, default=sys.path[0], 
                     help="option, directory to write Markdown files. Defaults to directory "
@@ -19,7 +21,12 @@ parser.add_argument("--overwrite", action="store_true",
                          "files with the same path and basename.")
 args = parser.parse_args()
 
-github = Github()
+if args.token:
+    auth = Auth.Token(args.token)
+else:
+    auth = Auth.Token()  # public access is rate limited
+
+github = Github(auth=auth)
 user = github.get_user(args.user)
 if args.repo:
     pass
@@ -32,8 +39,7 @@ else:
         print(repo_name)
         authors = [c.login for c in repo.get_contributors()]
         try:
-            readme = repo.get_readme().decoded_content
-            readme = readme.split("---\n\n")[-1]  # remove header
+            readme = repo.get_readme().decoded_content.decode()
         except:
             readme = None
         license = repo.license
@@ -62,4 +68,6 @@ else:
             outfile.write(readme)
         outfile.close()
 
-        time.sleep(5)  # seconds, avoid triggering rate limiter
+        time.sleep(1)  # seconds, avoid triggering rate limiter
+
+github.close()
