@@ -56,7 +56,7 @@ else:
         outfile.write("---\nlayout: software\n")
         outfile.write(f"title: {repo_name}\n")
         outfile.write(f"year: {cdate.year}\n")
-        outfile.write(f"authors: {authors}\n")
+        outfile.write(f"authors: {', '.join(authors)}\n")
         outfile.write(f"github: {repo.html_url}\n")
         outfile.write(f"license: {repo.license}\n")
         outfile.write(f"description: \"{repo.description}\"\n")
