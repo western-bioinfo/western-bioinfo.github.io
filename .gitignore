@@ -15,3 +15,5 @@ vendor/
 .Rhistory
 .RData
 *.Rproj
+# temp directory
+_temp/
