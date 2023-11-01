@@ -17,7 +17,7 @@ Bio: Dr. Andrews completed her DPhil at the University of Oxford, pioneering the
 
 Selected Publications:
 
-[False signals induced by single-cell imputation](https://f1000research.com/articles/7-1740)https://f1000research.com/articles/7-1740
+[False signals induced by single-cell imputation](https://f1000research.com/articles/7-1740)
 
 [M3Drop: Dropout-based feature selection in single-cell RNAseq](https://academic.oup.com/bioinformatics/article/35/16/2865/5258099)
 
