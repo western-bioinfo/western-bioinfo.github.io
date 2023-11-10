@@ -6,7 +6,7 @@ author: "Dr. Qihuang Zhang"
 affil: "McGill University"
 date: 2023-11-21
 draft: false
-image: "/assets/images/Unknown_person.jpeg"
+image: https://www.mcgill.ca/epi-biostat-occh/files/epi-biostat-occh/styles/medium_focal__220_x_220_/public/zhang.jpg
 series:
 tags:
 categories:
