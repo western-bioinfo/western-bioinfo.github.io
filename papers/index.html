@@ -12,7 +12,13 @@ description: ""
 
 <div class="bigspacer"></div>
 
+<h2>Published articles from the last five years</h2>
+
+{% assign lastFiveYears = site.time | date: "%Y" | minus: 5 %}
 {% for paper in site.categories.papers %}
+	{% capture year %}{{paper.date | date: "%Y" }}{% endcapture %}
+	{% assign iyear = year | to_integer %}
+	{% if iyear > lastFiveYears %}
     <div class="row">
 		<!-- left column -->
 		<div class="col-md-2">
@@ -36,6 +42,6 @@ description: ""
 			</div>
         </div>
     </div>
-
+	{% endif %}
 	<div class="bigspacer"></div>
 {% endfor %}
