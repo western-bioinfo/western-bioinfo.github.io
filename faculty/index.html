@@ -23,19 +23,32 @@ description: "Faculty members in medical bioinformatics"
 <div class="bigspacer"></div>
 
 <div class="bigspacer"></div>
+
+<div id="fac-list">
 {% for member in site.categories.faculty %}	
 	<div class="media">
-	<a class="pull-left" href="{{ member.url }}">
-		<img width="150" class="media-object" src="{{ member.image }}">
-	</a>
+		<a class="pull-left" href="{{ member.url }}">
+			<img width="150" class="media-object" src="{{ member.image }}">
+		</a>
 		<div class="media-body">
-		<div class="head media-heading"><a href="{{ member.url }}" class="off">{{ member.title }}</a></div>
-		<p class="note">{{ member.position }}</p>
+			<div class="head media-heading">
+				<a href="{{ member.url }}" class="off">{{ member.title }}</a>
+			</div>
+			<p class="note">{{ member.position }}</p>
+		</div>
+		<div class="bigspacer"></div>
 	</div>
-	</div>
-	<div class="bigspacer"></div>
 {% endfor %}
+</div>
 
 <br>
 <div class="bigspacer"></div>
 <div class="bigspacer"></div>
+
+<script>
+	// random permutation of faculty listing
+	var facList = document.querySelector("#fac-list");
+	for (var i = facList.children.length; i >= 0; i--) {
+		facList.appendChild(facList.children[Math.random() * i | 0]);
+	}
+</script>
