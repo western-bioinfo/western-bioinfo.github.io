@@ -64,7 +64,7 @@ title: Home
 		<div class="bigspacer"></div>
 		<div class="feedbox pad-left">
 			<!-- TODO: filter past seminars to within last few months... -->
-			{% assign pastLimit = "now" | date: "%s" | minus: 2592000 %}
+			{% assign pastLimit = "now" | date: "%s" | minus: 7776000 %}
 			{% assign futureLimit = "now" | date: "%s" | plus: 7776000 %}
 			{% assign sorted = site.categories.seminars | reverse %}
 			{% for post in sorted limit:10 %}
