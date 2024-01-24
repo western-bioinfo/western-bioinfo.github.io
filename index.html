@@ -67,7 +67,7 @@ title: Home
 			{% assign pastLimit = "now" | date: "%s" | minus: 7776000 %}
 			{% assign futureLimit = "now" | date: "%s" | plus: 7776000 %}
 			{% assign sorted = site.categories.seminars | reverse %}
-			{% for post in sorted limit:10 %}
+			{% for post in sorted %}
 				{% assign seconds = post.date | date: "%s" | plus: 0 %}
 				{% if seconds > pastLimit and seconds < futureLimit %}
 				<div class="note-title">
