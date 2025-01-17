@@ -1,5 +1,5 @@
 ---
-title: "Deep Generative AI for Affordable and Comprehensive Single-Cell Omics"
+title: "The Genomic Architecture of Autism"
 subtitle: ""
 excerpt: ""
 author: "Brett Trost"
