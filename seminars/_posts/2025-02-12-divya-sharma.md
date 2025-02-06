@@ -6,7 +6,7 @@ author: "Divya Sharma"
 affil: "Department of Mathematics and Statistics, York University"
 date: 2025-02-12
 draft: false
-image: "[https://www.sickkids.ca/siteassets/images/staff-headshots/brett-trost-headshot-300.jpg](https://www.yorku.ca/science/profiles/wp-content/uploads/sites/229/2024/08/Divya_headshot_CM.jpg)"
+image: https://www.yorku.ca/science/profiles/wp-content/uploads/sites/229/2024/08/Divya_headshot_CM.jpg
 series:
 tags:
 categories:
