@@ -59,6 +59,28 @@ title: Home
 <div class="row">
 	<div class="col-md-4">
 		<div class="head">
+			<a class="off" href="/events/">Events</a>
+		</div>
+		<div class="bigspacer"></div>
+		<div class="feedbox pad-left">		
+			{% for event in site.categories.events limit:3 %}
+				<div class="note-title">
+					<i class="fa fa-calendar fa-fw"></i>
+					<a class="off" href="{{ event.url }}">
+					{{ event.title }}
+					</a>
+					<br/>
+					<div class='note'>
+					  {{ event.date | date_to_string }}
+					  {{ event.subtitle }}
+					</div>
+				</div>
+				<div class="spacer"></div>			
+			{% endfor %}
+		</div>
+		<div class="bigspacer"></div>
+
+		<div class="head">
 			<a class="off" href="/seminars/">Seminars</a>
 		</div>
 		<div class="bigspacer"></div>
