@@ -18,7 +18,7 @@ layout: seminar
 April 17, 2025, 1 - 4pm, Medical Science Building MSB-282<br/>
 Zoom details to come (please RSVP)
 
-Open M.Sc. and Ph.D. positions<br/>
+**Open M.Sc. and Ph.D. positions**<br/>
 Undergraduate Research Opportunities, Capstone Courses
 
 ## Artificial Intelligence, Generative Modelling, Statistical Inference, Modelling, Algorithms, Genomics, Systems Biology, Evolution, Health Informatics
@@ -29,3 +29,4 @@ Undergraduate Research Opportunities, Capstone Courses
 * Chat with PIs and graduate students doing bioinformatics-driven research
 * Free coffee, free lunch
 
+**RSVP: michael.hallett@uwo.ca**
