@@ -32,7 +32,6 @@ Undergraduate Research Opportunities, Capstone Courses
 **RSVP: michael.hallett@uwo.ca**
 
 
-| **Time**         | **Session Details**                                                                                                                                                             | **Affiliation/Department**                                                                                         |
 
 | **1-1:10**       | **Greetings**<br>Presenter: M. Hallett<br>Computational Oncology                                                                                                               | Dept. of Biochemistry and Oncology                                                                                 |
 |                  | *Short presentations*                                                                                                                                                           |                                                                                            |
