@@ -33,10 +33,12 @@ Undergraduate Research Opportunities, Capstone Courses
 
 
 
-| **1-1:10**       | **Greetings**<br>Presenter: M. Hallett<br>Computational Oncology                                                                                                               | Dept. of Biochemistry and Oncology                                                                                 |
+| **1-1:10**       | **Greetings**<br>Presenter: M. Hallett<br>Computational Oncology                                                                                                               | Dept. of Biochemistry and Oncology
+<br><a href="https://mikehallett.science/">Hallett Lab</a> |
 |                  | *Short presentations*                                                                                                                                                           |                                                                                            |
 | **1:10-1:16**    | **Natasha Mhatre**<br>Modelling the mechanics and physics of animal communication systems                                                                                        | Dept. of Biology, & Dept. of Physics and Astronomy                                                                 |
-| **1:17-1:23**    | **Vanessa Dumeaux**<br>From single cells to systems: data science powering precision medicine                                                                                    | Dept. of Anatomy & Cell Biology, Biochemistry, Oncology                                                            |
+| **1:17-1:23**    | **Vanessa Dumeaux**<br>From single cells to systems: data science powering precision medicine                                                                                    | Dept. of Anatomy & Cell Biology, Biochemistry, Oncology  
+<br><a href="https://lab-dumeaux.science//">Dumeaux Lab</a> |
 | **1:24-1:30**    | **Jorn Diedrichsen**<br>Computational neuroscience                                                                                                                              | Dept. of Computer Science                                                                                          |
 | **1:31-1:36**    | **Alexander Timoshenko**<br>Galectin networks in human cells and tissues                                                                                                        | Dept. of Biology, Oncology                                                                                         |
 | **1:37-1:43**    | **Art Poon**<br>Virus evolution and epidemiology                                                                                                                                | Dept. of Pathology and Laboratory Medicine                                                                         |
