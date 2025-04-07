@@ -33,8 +33,8 @@ Undergraduate Research Opportunities, Capstone Courses
 
 
 
-| **1-1:10**       | **Greetings**<br>Presenter: M. Hallett<br>Computational Oncology                                                                                                               | Dept. of Biochemistry and Oncology
-| <a href="https://mikehallett.science/">Hallett Lab</a> 
+| **1-1:10**       | **Greetings**<br>Presenter: M. Hallett<br>Computational Oncology<br><a href="https://mikehallett.science/">Hallett Lab</a>                                                    | Dept. of Biochemistry and Oncology
+                              |       
 |                  | *Short presentations*                                                                                                                                                           |                                                                                            |
 | **1:10-1:16**    | **Natasha Mhatre**<br>Modelling the mechanics and physics of animal communication systems                                                                                        | Dept. of Biology, & Dept. of Physics and Astronomy                                                                 |
 | **1:17-1:23**    | **Vanessa Dumeaux**<br>From single cells to systems: data science powering precision medicine<br><a href="https://lab-dumeaux.science/">Dumeaux Lab</a>                                    | Dept. of Anatomy & Cell Biology, Biochemistry, Oncology
