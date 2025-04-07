@@ -33,7 +33,7 @@ Undergraduate Research Opportunities, Capstone Courses
 
 
 | **Time**         | **Session Details**                                                                                                                                                             | **Affiliation/Department**                                                                                         |
-|------------------|----------------------------------------------------------------```---------------------------------|```------------------------------------|
+
 | **1-1:10**       | **Greetings**<br>Presenter: M. Hallett<br>Computational Oncology                                                                                                               | Dept. of Biochemistry and Oncology                                                                                 |
 |                  | *Short presentations*                                                                                                                                                           |                                                                                            |
 | **1:10-1:16**    | **Natasha Mhatre**<br>Modelling the mechanics and physics of animal communication systems                                                                                        | Dept. of Biology, & Dept. of Physics and Astronomy                                                                 |
@@ -55,5 +55,5 @@ Undergraduate Research Opportunities, Capstone Courses
 | **3:35-3:41**    | **Mark Daley**<br>Artificial Intelligence                                                                                                                                       | Dept. of Computer Science                                                                                          |
 | **3:42-3:47**    | **Stephanie Black**<br>Metabolomics approaches for exploring microbial metabolism                                                                                               | Dept. of Biochemistry                                                                                              |
 | **3:48-3:55**    | **Lyle Muller**<br>Computational approaches in sensory processing and memory                                                                                                      | Depart. of Mathematics                                                                                             |
-| **3:56-~4:20**   | **Closing remarks, Coffee Snacks**                                                                                                                                               |                                                                                            |
+| **3:56-4:20**   | **Closing remarks, Coffee Snacks**                                                                                                                                               |                                                                                            |
 
