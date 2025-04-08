@@ -58,3 +58,4 @@ Undergraduate Research Opportunities, Capstone Courses
 | **3:48-3:55**    | **Lyle Muller**<br>Computational approaches in sensory processing and memory                                                                                                      | Depart. of Mathematics                                                                                             |
 | **3:56-4:20**   | **Closing remarks, Coffee Snacks**                                                                                                                                               |                                                                                            |
 
+We thank [bioinformatics.ca](mailto:bioinformatics.ca) and all of the undergraduate societies for advertising this event.
