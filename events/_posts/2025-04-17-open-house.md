@@ -16,7 +16,7 @@ layout: seminar
 # Research Opportunities in Bioinformatics, Biostatistics, AI and Data Science
 
 April 17, 2025, 1 - 4pm, Medical Science Building MSB-282<br/>
-Zoom details to come (please RSVP)
+Zoom details below (**please RSVP**)
 
 **Open M.Sc. and Ph.D. positions**<br/>
 Undergraduate Research Opportunities, Capstone Courses
@@ -34,8 +34,8 @@ Undergraduate Research Opportunities, Capstone Courses
 https://western-bioinfo.github.io/events/open-house
 
 
-Zoom:
-<a href="https://westernuniversity.zoom.us/j/5142995928?omn=94007152979">Zoom Link</a><br
+**Zoom:**
+<a href="https://westernuniversity.zoom.us/j/5142995928?omn=94007152979">Zoom Link</a><br>
 Meeting ID: 514 299 5928; Passcode: 789953 <br>
 One tap mobile +16475580588,,5142995928# Canada <br>
 Dial by your location: +1 647 558 0588 Canada<br>
