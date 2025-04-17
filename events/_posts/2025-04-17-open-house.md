@@ -36,9 +36,7 @@ https://western-bioinfo.github.io/events/open-house
 
 **Zoom:**
 <a href="https://westernuniversity.zoom.us/j/5142995928?omn=94007152979">Zoom Link</a><br>
-Meeting ID: 514 299 5928; Passcode: 789953 <br>
-One tap mobile +16475580588,,5142995928# Canada <br>
-Dial by your location: +1 647 558 0588 Canada<br>
+
 
 # Event Schedule
 
