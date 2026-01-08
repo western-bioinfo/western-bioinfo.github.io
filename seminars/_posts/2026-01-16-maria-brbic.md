@@ -6,7 +6,7 @@ author: "Maria Brbic"
 affil: "Assistant Professor, Swiss Federal Technology Institute of Lausanne (EPFL)"
 date: 2026-01-16
 draft: false
-image: https://people.epfl.ch/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsiZGF0YSI6OTA2NCwiZXhwIjoiMjAyNi0wMS0wNlQxNjowODo0OC4zMzJaIiwicHVyIjoiYmxvYl9pZCJ9fQ==--46a3ac1aba7c64028d0f1df810330394509dae92/eyJfcmFpbHMiOnsiZGF0YSI6eyJmb3JtYXQiOiJqcGciLCJyZXNpemVfdG9fbGltaXQiOls2MDAsNjAwXX0sInB1ciI6InZhcmlhdGlvbiJ9fQ==--f0434730233511d2b7f78b3f724fd44f404193e0/248326.jpg?lang=en
+image: https://cifar.ca/wp-content/uploads/2025/10/Mara-Brbic_MHU.png
 series:
 tags:
 categories:
