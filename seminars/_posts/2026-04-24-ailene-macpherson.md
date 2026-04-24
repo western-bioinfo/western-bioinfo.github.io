@@ -1,5 +1,5 @@
 ---
-title: "The Code of Survival: Machine Learning Deciphers How Life Thrives in Extreme Conditions"
+title: "Expectations and Insights from the Size of Phylogenetic Clades"
 subtitle: ""
 excerpt: ""
 author: "Ailene MacPherson"
