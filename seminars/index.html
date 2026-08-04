@@ -5,55 +5,186 @@ description: ""
 group: navigation 
 navorder: 1
 ---
+
 {% include JB/setup %}
 
-{% for post in site.categories.seminars %}
-    <div class="bigspacer"></div>
-    <div class="row">
-        <!-- left margin -->
-        <div class="col-md-2">
-            <div class="smallhead">
-                {{ post.date | date_to_string }}
-                {% if author %}
-                by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
-                {% endif %}
-            </div>
+{% assign now = "now" | date: "%s" %}
+{% assign yearAgo = now | minus: 31536000 %}
+{% assign sorted = site.categories.seminars %}
 
-            {% if post.image %}
-            <a href="{{ post.url }}"><img class="offset" width=125 src="{{ post.image }}"></a>
+<div class="tabs">
+	<div class="tab-buttons">
+		<button class="tab-btn active" data-tab="recent-seminars">Recent</button>
+		<button class="tab-btn" data-tab="archived-seminars">Archived</button>
+	</div>
+
+    <div id="recent-seminars" class="tab-content active">
+        {% for post in sorted %}
+            {% assign seconds = post.date | date: "%s" | plus: 0 %}
+            {% if seconds > yearAgo %}
+            <div class="bigspacer"></div>
+            <div class="row">
+                <!-- left margin -->
+                <div class="col-md-2">
+                    <div class="smallhead">
+                        {{ post.date | date_to_string }}
+                        {% if author %}
+                        by  <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+                        {% endif %}
+                    </div>
+
+                    {% if post.image %}
+                    <a href="{{ post.url }}"><img class="offset" width=125 src="{{ post.image }}"></a>
+                    {% endif %}
+                </div>
+
+                <!-- body -->
+                <div class="col-md-8">
+                    <!-- <div style="height:5px;"></div> -->
+                    <div class="smallhead">
+                        <!-- seminar title -->
+                        <a href="{{ post.url }}" class="off">{{ post.title }}</a>
+                    </div>
+        
+                    <div class="smalltitle">
+                        <!-- seminar speaker -->
+                        <a href="{{ post.url }}">{{ post.author }}</a>
+                    </div>
+        
+                    <div class="smallhead">
+                        {{ post.affil }}
+                    </div>
+                </div>
+
+                <!-- right margin (spacer) -->
+                <div class="col-md-1"></div>
+            </div>
+            <!-- gap between entries -->
+            <div class="bigspacer"></div>
             {% endif %}
-        </div>
-        <!-- body -->
-        <div class="col-md-8">
-            <!-- <div style="height:5px;"></div> -->
-            <div class="smallhead">
-                <!-- seminar title -->
-                <a href="{{ post.url }}" class="off">{{ post.title }}</a>
-            </div>
-
-            <div class="smalltitle">
-                <!-- seminar speaker -->
-                <a href="{{ post.url }}">{{ post.author }}</a>
-            </div>
-
-            <div class="smallhead">
-                {{ post.affil }}
-            </div>
-        </div>
-        <!-- right margin (spacer) -->
-        <div class="col-md-1"></div>
+        {% endfor %}
     </div>
 
-    <!-- gap between entries -->
-    <div class="bigspacer"></div>
-{% endfor %}
+    <div id="archived-seminars" class="tab-content">
+        {% for post in sorted %}
+            {% assign seconds = post.date | date: "%s" | plus: 0 %}
+            {% if seconds <= yearAgo %}
+            <div class="bigspacer"></div>
+            <div class="row">
+                <!-- left margin -->
+                <div class="col-md-2">
+                    <div class="smallhead">
+                        {{ post.date | date_to_string }}
+                        {% if author %}
+                        by <a class="off" href="{{ author.url }}">{{ author.handle }}</a>
+                        {% endif %}
+                    </div>
 
+                    {% if post.image %}
+                    <a href="{{ post.url }}"><img class="offset" width=125 src="{{ post.image }}"></a>
+                    {% endif %}
+                </div>
+                <!-- body -->
+                <div class="col-md-8">
+                    <!-- <div style="height:5px;"></div> -->
+                    <div class="smallhead">
+                        <!-- seminar title -->
+                        <a href="{{ post.url }}" class="off">{{ post.title }}</a>
+                    </div>
 
-<!-- <div class="row">
-        <div class="col-md-12 text-center">
-                <a class="off" href="/{{ page.category }}/archive/">
-                        <div class="smallhead">Archive</div>
-                        <i class="text-gray fa fa-chevron-circle-down fa-2x"></i>
-                </a>
-        </div>
-</div> -->
+                    <div class="smalltitle">
+                        <!-- seminar speaker -->
+                        <a href="{{ post.url }}">{{ post.author }}</a>
+                    </div>
+
+                    <div class="smallhead">
+                        {{ post.affil }}
+                    </div>
+                </div>
+                <!-- right margin (spacer) -->
+                <div class="col-md-1"></div>
+            </div>
+
+            <!-- gap between entries -->
+            <div class="bigspacer"></div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+<hr class="seminars-footer-rule">
+<footer class="seminars-footer">
+    <div class="footer-col">
+    <p>
+    The Western Medical Bioinformatics seminar series is an Active Partner of the 
+    Canadian Bioinformatics Hub.
+    </p>
+    <a href="https://bioinformatics.ca"><img src="/assets/images/CBH-Logo-EN-Red.png" width="200px"></a>
+    </div>
+    <div class="footer-col">
+    <p>
+    La s&eacute;rie de s&eacute;minaires sur la bio-informatique m&eacute;dicale de Western est un Partenaire actif du Hub Canadien de Bio-informatique.
+    </p>
+    <a href="https://bioinformatics.ca"><img src="/assets/images/CBH-Logo-FR-Red.png" width="200px"></a>
+    </div>
+</footer>
+
+<style>
+.tab-buttons {
+    display: flex;
+    gap: 0.5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #ccc;
+}
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 1em;
+    border-bottom: 2px solid transparent;
+}
+.tab-btn.active {
+    border-bottom: 2px solid #333;
+    font-weight: bold;
+}
+.tab-content {
+    display: none;
+}
+.tab-content.active {
+    display: block;
+}
+.seminars-footer-rule {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 2em 0 1.5em 0;
+}
+.seminars-footer {
+    display: flex;
+    gap: 2em;
+    font-size: 1.2em;
+    color: #333;
+}
+.footer-col {
+    flex: 1;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    var buttons = document.querySelectorAll(".tab-btn");
+    buttons.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+            document.querySelectorAll(".tab-btn").forEach(function (b) {
+                b.classList.remove("active");
+            });
+            document.querySelectorAll(".tab-content").forEach(function (c) {
+                c.classList.remove("active");
+            });
+            btn.classList.add("active");
+            document.getElementById(btn.dataset.tab).classList.add("active");
+        });
+    });
+});
+</script>
+
