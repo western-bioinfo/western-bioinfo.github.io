@@ -2,7 +2,7 @@ require 'rest-client'
 require 'nokogiri'
 
 # Replace with the name of the author you want to search for
-AUTHOR_NAME = 'Shooshtari P[Author]'
+AUTHOR_NAME = 'Jennifer L Guthrie[Author]'
 
 # Construct the first query to get the list of PubMed IDs for all papers by the author
 url1 = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term=#{AUTHOR_NAME}"
@@ -17,4 +17,4 @@ response2 = RestClient.get(url2)
 # Print the XML data
 file = File.new("assets/pubmed_result.xml", "w")
 file.puts(response2.body)
-puts response2.body
+#puts response2.body
