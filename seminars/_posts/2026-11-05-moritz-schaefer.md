@@ -21,3 +21,7 @@ layout: seminar
 ## Speaker Bio
 Moritz Schaefer is a postdoctoral researcher at Stanford University with Zinaida Good and Jure Leskovec, developing human-interpretable AI that turns complex biomedical data into biological insight. He built CellWhisperer (Nature Biotechnology, 2025) and SpatialWhisperer (ICML, 2026), both multimodal AI methods that let researchers analyze single-cell data from transcriptomics and histopathology data. His current work leverages AI agents to scale analysis of multimodal patient data to address cancer therapy resistance. 
 He worked with Christoph Bock at the Medical University of Vienna and CeMM, holds a PhD in Systems Biology from ETH Zurich, and studied computer science and AI at TU Berlin.
+
+
+## Registration
+The seminar will be held by Zoom on November 5 at 11am EST.  Please use this [**Google Forms link**](https://docs.google.com/forms/d/e/1FAIpQLSf7bK5eT-ykYXNlkK2qGtXZMp8c5PVbYfS1xZY7ab7BjNbyQQ/viewform) to register.

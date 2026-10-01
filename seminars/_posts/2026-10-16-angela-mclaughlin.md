@@ -21,3 +21,6 @@ layout: seminar
 
 ## Speaker Bio
 Angela is a Postdoctoral Fellow at Dalhousie University working with Dr. Finlay Maguire, in collaboration with Dr. Zvonimir Poljak at University of Guelph. She completed her PhD in Bioinformatics and MSc in Population and Public Health at University of British Columbia, during which she worked at the BC Centre for Excellence in HIV/AIDS. During her graduate studies, she specialized in developing phylogenetic models of HIV-1 and SARS-CoV-2 transmission and migration dynamics in Canada. Her current project focuses on predicting influenza H5Nx host taxa susceptibility using viral genomic features within phylogenetically-informed machine learning models.
+
+## Registration
+The seminar will be held by Zoom on October 16 at 11am EST.  Please use this [**Google Forms link**](https://docs.google.com/forms/d/e/1FAIpQLScT8uJoCesk-QinQ_75MzvPCiL9mfIvTw8KAJM08TvqEbKHWw/viewform) to register.
